@@ -1,0 +1,44 @@
+{
+  "_comment_for_explorer": "// 资源管理器",
+
+  "explorer.confirmDelete": false,
+
+  "_comment_for_editor": "// 编辑器",
+
+  "editor.codeActionsOnSave": {
+    "source.action.useSortedAttributes.biome": "explicit",
+    "source.action.useSortedKeys.biome": "explicit",
+    "source.action.useSortedProperties.biome": "explicit",
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.defaultFormatter": "fronterior.biome-monorepo",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 120,
+
+  "_comment_for_git": "// Git",
+
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+
+  "_comment_for_vscode-icons-team.vscode-icons": "// 图标",
+
+  "workbench.iconTheme": "vscode-icons",
+
+  "_comment_for_json": "// JSON",
+
+  "json.format.enable": false,
+
+  "_comment_for_typescript": "// TypeScript",
+
+  "js/ts.format.enabled": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnPaste.enabled": true,
+
+  "js/ts.tsdk.path": "./node_modules/typescript/lib"
+}
