@@ -4,7 +4,7 @@
   "description": "YYF's personal efficiency augmentation CLI",
   "type": "module",
   "bin": {
-    "index": "./dist/bin/index.js"
+    "eap-cli": "./dist/bin/index.js"
   },
   "scripts": {
     "dev": "node --import tsx src/bin/index.ts",

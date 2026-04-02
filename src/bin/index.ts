@@ -2,6 +2,7 @@
 
 import { Command, CommanderError } from 'commander';
 
+import { authCommand } from '@/commands/auth';
 import { posterCommand } from '@/commands/poster';
 import { pptCommand } from '@/commands/ppt';
 import { searchCommand } from '@/commands/search';
@@ -18,6 +19,7 @@ program
   .configureHelp({ sortSubcommands: true });
 
 // Register commands
+authCommand(program);
 pptCommand(program);
 posterCommand(program);
 searchCommand(program);
