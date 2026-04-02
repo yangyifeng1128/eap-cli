@@ -13,7 +13,7 @@
     "ts:check": "tsc --noEmit",
     "lint": "biome lint .",
     "format": "biome format --write .",
-    "clean": "npx rimraf --glob node_modules dist pnpm-lock.yaml"
+    "clean": "pnpx rimraf node_modules dist pnpm-lock.yaml"
   },
   "dependencies": {
     "commander": "^14.0.3"
