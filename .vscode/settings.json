@@ -13,9 +13,6 @@
     "source.organizeImports.biome": "explicit"
   },
   "editor.defaultFormatter": "fronterior.biome-monorepo",
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
   "editor.formatOnSave": true,
   "editor.wordWrap": "off",
   "editor.wordWrapColumn": 120,
@@ -37,8 +34,7 @@
   "_comment_for_typescript": "// TypeScript",
 
   "js/ts.format.enabled": false,
+  "js/ts.tsdk.path": "./node_modules/typescript/lib",
   "js/ts.updateImportsOnFileMove.enabled": "always",
-  "js/ts.updateImportsOnPaste.enabled": true,
-
-  "js/ts.tsdk.path": "./node_modules/typescript/lib"
+  "js/ts.updateImportsOnPaste.enabled": true
 }
